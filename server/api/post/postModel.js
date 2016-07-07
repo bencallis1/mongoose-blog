@@ -1,0 +1,1 @@
+// Create a post schema that will have a ref for categories and author ref
