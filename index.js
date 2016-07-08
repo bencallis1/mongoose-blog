@@ -6,7 +6,11 @@
 
 // setup config first before anything by requiring it
 
+// dont worry about the config use it for refrence later
 var config = require('./server/config/config');
+
+
+
 var app = require('./server/server');
 
 // Logger is just making helpful console logs for us

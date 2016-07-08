@@ -3,7 +3,7 @@ var app = express();
 var api = require('./api/api');
 
 
-require('mongoose').connect('mongodb://localhost/artists');
+require('mongoose').connect('mongodb://localhost/newblog');
 
 // setup the app middleware
 require('./middleware/appMiddleware')(app);
